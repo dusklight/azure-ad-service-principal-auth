@@ -17,7 +17,7 @@ namespace ClientDemo
             var authContext = new AuthenticationContext(authority);
 
             // This must match the "Audiences" setup on the API/server application side.  See Startup.cs on the ServerDemo project.
-			string resourceId = "[Your API/Server Application's ID or the URI Setup in Azure]";
+            string resourceId = "[Your API/Server Application's ID or the URI Setup in Azure]";
 
             var clientCredential = new ClientCredential("[Your Application ID]", "[Your Application Key (Password)]");
 
