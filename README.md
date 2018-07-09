@@ -1,0 +1,1 @@
+# azure-ad-service-principal-auth
